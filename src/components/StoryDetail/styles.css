@@ -1,0 +1,21 @@
+.StoryDetail {
+  max-width: 768px;
+  margin: 2rem auto;
+}
+
+.StoryDetail__featured-image {
+  width: 100%;
+}
+
+
+.StoryDetail__body {
+  max-width: 640px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.2rem;
+}
+
+.StoryDetail__body img {
+  max-width: 100%;
+}

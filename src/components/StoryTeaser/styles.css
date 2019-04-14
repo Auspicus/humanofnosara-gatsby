@@ -1,0 +1,38 @@
+.StoryTeaser {
+  position: relative;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.StoryTeaser__link {
+  position: absolute;
+  bottom: .5rem;
+  right: .5rem;
+  color: #F7FFF7;
+  opacity: 0;
+  transition: opacity .25s ease;
+}
+
+.StoryTeaser:hover .StoryTeaser__link,
+.StoryTeaser:focus .StoryTeaser__link {
+  opacity: 1;
+}
+
+.StoryTeaser:hover .StoryTeaser__image-overlay,
+.StoryTeaser:focus .StoryTeaser__image-overlay {
+  display: block;
+}
+
+.StoryTeaser__image-overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, .7), rgba(0, 0, 0, 0));
+  display: none;
+}
+
+.StoryTeaser__image {
+  display: block;
+  width: 100%;
+}
